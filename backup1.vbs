@@ -5,6 +5,6 @@ If Not WScript.Arguments.Named.Exists("elevate") Then
 End If
 
 set objshell = createobject("wscript.shell")
-objshell.run "yourDesiredDirectory\backup.bat"
+objshell.run "directory\backup.bat"
 
 ' ,vbhide

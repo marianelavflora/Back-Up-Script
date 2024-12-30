@@ -8,3 +8,4 @@ rem LOCAL COPY TO USB DEVICE
 xcopy /s /e /k /c /y /d /i /h /r x:\FolderToBackup x:\BackupFolderDestinationUSB
 echo Backup to USD Devide completed!  
 
+@pause

@@ -1,13 +1,10 @@
 @echo off
 
-rem URL CODIGOS https://www.tuinformaticafacil.com/sistemas-operativos/windows/comando-xcopy
+rem LOCAL COPY TO HDD
+xcopy /s /e /k /c /y /d /i /h /r x:\FolderToBackup x:\BackupFolderDestinationHDD
+echo Backup to HDD completed! 
 
-rem COPIA LOCAL A HDD
-xcopy /s /e /k /c /y /d /i /h /r C:\MAVI LOCAL D:\Back_up
-echo Backup A HDD completado! 
+rem LOCAL COPY TO USB DEVICE
+xcopy /s /e /k /c /y /d /i /h /r x:\FolderToBackup x:\BackupFolderDestinationUSB
+echo Backup to USD Devide completed!  
 
-rem COPIA LOCAL A PENDRIVE 
-xcopy /s /e /k /c /y /d /i /h /r C:\MAVI LOCAL E:\LIBRERIAS
-echo Backup Pendrive completado! 
-
-@pause
